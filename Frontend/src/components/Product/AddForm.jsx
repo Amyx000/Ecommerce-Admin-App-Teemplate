@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import productService from "../../services/product.service";
 
 function AddForm() {
   const [productDetails, setProductDetails] = useState({

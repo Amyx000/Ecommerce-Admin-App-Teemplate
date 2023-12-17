@@ -1,8 +1,8 @@
-import axios from "axios";
 import React, { useState } from "react";
+import productService from "../../services/product.service";
 
 function UpdateForm() {
-  const [productDetails, setProductDetails] = useState({});
+  const [productDetails, setProductDetails] = useState();
 
   return (
     <div>

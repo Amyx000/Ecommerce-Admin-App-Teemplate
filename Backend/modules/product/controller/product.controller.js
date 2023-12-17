@@ -1,27 +1,27 @@
-const Product = require("../model/product.model");
+const ProductServiceImpl = require("../service/impl/product.serviceImpl");
 
-// fetch all product
-const getAllProducts = async (req, res) => {
-  // write your logic here
-  return null;
-};
+const productService = new ProductServiceImpl();
 
-//Add Product
-const addProduct = async (req, res) => {
-  // write your logic here
-  return null;
-};
+class ProductController {
+  async getAllProducts(req, res) {
+    // write your logic here
+    return null;
+  }
 
-//Update Product
-const updateProduct = async (req, res) => {
-  // write your logic here
-  return null;
-};
+  async addProduct(req, res) {
+    // write your logic here
+    return null;
+  }
 
-//Delete Product
-const deleteProduct = async (req, res) => {
-  // write your logic here
-  return null;
-};
+  async updateProduct(req, res) {
+    // write your logic here
+    return null;
+  }
 
-module.exports = { getAllProducts, addProduct, updateProduct, deleteProduct };
+  async deleteProduct(req, res) {
+    // write your logic here
+    return null;
+  }
+}
+
+module.exports = ProductController;
