@@ -8,6 +8,11 @@ class ProductController {
     return null;
   }
 
+  async searchProductByName(req, res) {
+    // write your logic here
+    return null;
+  }
+
   async addProduct(req, res) {
     // write your logic here
     return null;

@@ -6,6 +6,11 @@ const productService = {
     return null;
   },
 
+  searchProductByName: async (params) => {
+    // write your logic here
+    return null;
+  },
+
   addProduct: async (productData) => {
     // write your logic here
     return null;

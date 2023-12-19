@@ -7,6 +7,11 @@ class ProductServiceImpl extends ProdcutService {
     return null;
   }
 
+  async searchProductByName(name) {
+    // write your logic here
+    return null;
+  }
+
   async addProduct(productData) {
     // write your logic here
     return null;
