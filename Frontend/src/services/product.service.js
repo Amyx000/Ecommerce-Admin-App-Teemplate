@@ -1,11 +1,5 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:8081/api";
-
-const axiosInstance = axios.create({
-  baseURL: BACKEND_URL,
-});
-
 const productService = {
   getAllProducts: async () => {
     // write your logic here
